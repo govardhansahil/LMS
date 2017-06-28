@@ -1,0 +1,18 @@
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\bin\Debug\BusinessLayer.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\bin\Debug\BusinessLayer.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\bin\Debug\DomainLayer.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\bin\Debug\DomainLayer.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\obj\Debug\BusinessLayer.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\obj\Debug\BusinessLayer.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\bin\Debug\Repository.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\BusinessLayer\bin\Debug\Repository.pdb
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\bin\Debug\DomainLayer.dll
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\bin\Debug\Repository.dll
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\bin\Debug\DomainLayer.pdb
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\bin\Debug\Repository.pdb
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\govardhan.nandi\Documents\LMS\BusinessLayer\obj\Debug\BusinessLayer.pdb

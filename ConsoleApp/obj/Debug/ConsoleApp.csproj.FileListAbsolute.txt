@@ -1,0 +1,24 @@
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\ConsoleApp.exe
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\ConsoleApp.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\DomainLayer.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\DomainLayer.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\obj\Debug\ConsoleApp.exe
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\obj\Debug\ConsoleApp.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\BusinessLayer.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\Repository.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\BusinessLayer.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\ConsoleApp\bin\Debug\Repository.pdb
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\obj\Debug\ConsoleApp.pdb
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\BusinessLayer.dll
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\DomainLayer.dll
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\Repository.dll
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\BusinessLayer.pdb
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\DomainLayer.pdb
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\bin\Debug\Repository.pdb
+C:\Users\govardhan.nandi\Documents\LMS\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache

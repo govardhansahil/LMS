@@ -1,0 +1,14 @@
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\Repository\bin\Debug\Repository.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\Repository\bin\Debug\Repository.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\Repository\bin\Debug\DomainLayer.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\Repository\bin\Debug\DomainLayer.pdb
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\Repository\obj\Debug\Repository.dll
+c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\Repository\obj\Debug\Repository.pdb
+C:\Users\govardhan.nandi\Documents\LMS\Repository\bin\Debug\Repository.dll
+C:\Users\govardhan.nandi\Documents\LMS\Repository\bin\Debug\Repository.pdb
+C:\Users\govardhan.nandi\Documents\LMS\Repository\bin\Debug\DomainLayer.dll
+C:\Users\govardhan.nandi\Documents\LMS\Repository\bin\Debug\DomainLayer.pdb
+C:\Users\govardhan.nandi\Documents\LMS\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\govardhan.nandi\Documents\LMS\Repository\obj\Debug\Repository.dll
+C:\Users\govardhan.nandi\Documents\LMS\Repository\obj\Debug\Repository.pdb
