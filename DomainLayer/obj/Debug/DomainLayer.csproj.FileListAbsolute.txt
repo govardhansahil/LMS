@@ -7,3 +7,7 @@ C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\bin\Debug\DomainLayer.dll
 C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\bin\Debug\DomainLayer.pdb
 C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\obj\Debug\DomainLayer.dll
 C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\obj\Debug\DomainLayer.pdb
+C:\Users\govardhan.nandi\Documents\New folder\LMS\DomainLayer\bin\Debug\DomainLayer.dll
+C:\Users\govardhan.nandi\Documents\New folder\LMS\DomainLayer\bin\Debug\DomainLayer.pdb
+C:\Users\govardhan.nandi\Documents\New folder\LMS\DomainLayer\obj\Debug\DomainLayer.dll
+C:\Users\govardhan.nandi\Documents\New folder\LMS\DomainLayer\obj\Debug\DomainLayer.pdb
