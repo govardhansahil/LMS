@@ -30,8 +30,9 @@ namespace BusinessLayer.Library
             return _bookObj.IssueBook(obj);
         }
 
-        public void RemoveBook(int bookID)
+        public string RemoveBook(int bookID)
         {
+            return _bookObj.RemoveBook(bookID);
         }
 
         public void ReturnBook()

@@ -57,10 +57,18 @@ namespace Repository.Library
             }
         }
 
-        public void RemoveBook(int bookID)
+        public string RemoveBook(int bookID)
         {
-            BookModel bookObj = StaticDatabase._booksList.Where(m => m.BookID == bookID).FirstOrDefault();
-            bookObj.IsActive = false;
+            try
+            {
+                BookModel bookObj = StaticDatabase._booksList.Where(m => m.BookID == bookID).FirstOrDefault();
+                bookObj.IsActive = false;
+                return StringLiterals.RemoveMsg;
+            }
+            catch
+            {
+                throw;
+            }
 
             // add entry into history table
         }

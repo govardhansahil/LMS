@@ -40,7 +40,7 @@ Login:      Console.WriteLine("\nEnter Credentials:");
 
         public static  int ChoiceSelect()
         {
-            IBookModule BookChoice = BALFactory.GetBookModuleObject(); ;
+            IBookModule BookChoice = BALFactory.GetBookModuleObject();
             int choice;
             Console.WriteLine("Welcome to Library!\n" +
                 "Select the choice of operation\n\n" +
@@ -69,15 +69,32 @@ Login:      Console.WriteLine("\nEnter Credentials:");
                     BookChoice.AddBook(newBook);
                     break;
                 case 2:
-                    BookHistoryModel issuInfo = new BookHistoryModel();
+                    BookHistoryModel issueInfo = new BookHistoryModel();
                     Console.WriteLine("Enter issuing details\n");
                     Console.Write("Book ID: ");
-                    issuInfo.BookID=
-
+                    issueInfo.BookID = Int32.Parse(Console.ReadLine());
+                    Console.Write("User ID: ");
+                    issueInfo.UserID = Int32.Parse(Console.ReadLine());
+                    Console.Write("Issue Time: ");
+                    issueInfo.OperationPerformedAt = DateTime.Now;
+                    Console.WriteLine(issueInfo.OperationPerformedAt);
+                    Console.Write("Return Date: ");
+                    issueInfo.ReturnedAt = DateTime.Now.AddDays(30);
+                    Console.WriteLine(issueInfo.ReturnedAt);
+                    Console.Write("Remarks: ");
+                    issueInfo.Remarks = Console.ReadLine();
+                    Console.Write("Issuing Authority ID: ");
+                    issueInfo.PerformedByID = Int32.Parse(Console.ReadLine());
+                    string _issuemsg=BookChoice.IssueBook(issueInfo);
+                    Console.WriteLine(_issuemsg);
                     break;
                 case 3:
                     break;
                 case 4:
+                    Console.WriteLine("Enter Book ID: ");
+                    int _removeID = Int32.Parse(Console.ReadLine());
+                    string _removemsg=BookChoice.RemoveBook(_removeID);
+                    Console.WriteLine(_removemsg);
                     break;
                 case 5:
                     IEnumerable<BookModel> BookList = BookChoice.GetAllBooks(true);

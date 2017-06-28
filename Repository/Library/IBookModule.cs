@@ -11,7 +11,7 @@ namespace Repository.Library
 
         string AddBook(BookModel bookObj);
 
-        void RemoveBook(int bookID);
+        string RemoveBook(int bookID);
 
         IEnumerable<BookModel> GetAllBooks(bool isIncludeDisabled);
     }

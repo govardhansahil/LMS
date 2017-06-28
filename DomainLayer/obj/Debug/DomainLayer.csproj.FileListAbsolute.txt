@@ -5,6 +5,5 @@ c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\DomainLayer\ob
 c:\users\kishore.ithadi\documents\visual studio 2015\Projects\LMS\DomainLayer\obj\Debug\DomainLayer.pdb
 C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\bin\Debug\DomainLayer.dll
 C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\bin\Debug\DomainLayer.pdb
-C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\obj\Debug\DomainLayer.csprojResolveAssemblyReference.cache
 C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\obj\Debug\DomainLayer.dll
 C:\Users\govardhan.nandi\Documents\LMS\DomainLayer\obj\Debug\DomainLayer.pdb
