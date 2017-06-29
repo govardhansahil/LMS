@@ -17,5 +17,9 @@ namespace BusinessLayer.Auth
         {
             return _authObj.Authenticate(obj);
         }
+        public string Register(UserModel obj)
+        {
+            return _authObj.Register(obj);
+        }
     }
 }

@@ -12,6 +12,7 @@ namespace Repository.Library
         {
             try
             {
+                bookObj.BookID=StaticDatabase._booksList.Count+1;
                 StaticDatabase._booksList.Add(bookObj);
 
                 return StringLiterals.SuccesMsg;
@@ -62,6 +63,7 @@ namespace Repository.Library
             }
             catch
             {
+                Console.WriteLine("\nInvalid UserId or BookID");
                 throw;
             }
         }

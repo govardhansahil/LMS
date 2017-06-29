@@ -18,7 +18,7 @@ namespace ConsoleApp
 Login:      Console.WriteLine("\nEnter Credentials:");
             Console.Write("Email: ");
             argObj.Email = Console.ReadLine();
-            Console.Write("\nPassword: ");
+            Console.Write("Password: ");
             argObj.Password = Console.ReadLine();
             result = obj.Authenticate(argObj);
             if (result)
@@ -31,10 +31,12 @@ Login:      Console.WriteLine("\nEnter Credentials:");
             }
             else
             {
+                Console.Clear();
                 Console.WriteLine("Invalid Credentials!, Try Again");
                 goto Login;
             }
-            Console.WriteLine("Exiting Application...");
+            Console.WriteLine("Press Enter to Exit the Application...");
+            Console.ReadKey();
 
         }
 
@@ -50,8 +52,10 @@ Login:      Console.WriteLine("\nEnter Credentials:");
                 "3. Return Book\n" +
                 "4. Remove Book\n" +
                 "5. Get All Books\n"+
-                "6. Search a Book\n"+
-                "7. Log Out\n");
+                "6. Get Issue or Return History\n"+
+                "7. Search a Book\n"+
+                "8. New User Registration\n"+
+                "9. Log Out\n");
             Console.Write("Enter choice :");
             choice = Int32.Parse(Console.ReadLine());
             switch (choice)
@@ -59,8 +63,6 @@ Login:      Console.WriteLine("\nEnter Credentials:");
                 case 1:
                     Console.Clear();
                     Console.WriteLine("Enter the Book details");
-                    Console.Write("Book ID: ");
-                    int _bookID = Int32.Parse(Console.ReadLine());
                     Console.Write("Book Name: ");
                     string _bookName = Console.ReadLine();
                     Console.Write("Book Author: ");
@@ -69,10 +71,9 @@ Login:      Console.WriteLine("\nEnter Credentials:");
                     string _bookDept = Console.ReadLine();
                     Console.Write("Number of Books: ");
                     int _bookCount=Int32.Parse(Console.ReadLine());
-                    for(int _loopAdd=0,_lastID=_bookID;_loopAdd<_bookCount;_loopAdd++,_lastID++)
+                    for(int _loopAdd=0;_loopAdd<_bookCount;_loopAdd++)
                     {
                         BookChoice.AddBook(new BookModel{
-                            BookID=_lastID,
                             Name=_bookName,
                             AuthorName=_bookAuthor,
                             Department=_bookDept,
@@ -124,17 +125,23 @@ Login:      Console.WriteLine("\nEnter Credentials:");
                     bool _getList=false;
                     Console.WriteLine("1.List all books\n"+"2.List available books\n"+"Enter your choice: ");
                     int _listChoice=Int32.Parse(Console.ReadLine());
+                    Console.Clear();
                     if(_listChoice==1) _getList=true; 
                     IEnumerable<BookModel> BookList = BookChoice.GetAllBooks(_getList);
                     foreach (BookModel item in BookList) {
-                        Console.WriteLine("Book ID: {0}\n" +
+                        Console.WriteLine("\nBook ID: {0}\n" +
                             "Book Name: {1}\n" +
                             "Author: {2}\n" +
                             "Department: {3}\n"+
                             "Number of books available: {4}",item.BookID,item.Name,item.AuthorName,item.Department,item.NumberOfBooks);
                     }
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
                     break;
                 case 6:
+                    Console.Clear();
+                    break;
+                case 7:
                     Console.Clear();
                     Console.WriteLine("\nEnter BookID or Book Name: ");
                     string _searcharg=Console.ReadLine();
@@ -145,8 +152,23 @@ Login:      Console.WriteLine("\nEnter Credentials:");
                         "Author: {2}\n"+
                         "Department: {3}\n",item.BookID,item.Name,item.AuthorName,item.Department);
                     }
+                    Console.Write("Press any key to continue..");
+                    Console.ReadKey();
                     break;
-                case 7:
+                case 8:
+                    Console.Clear();
+                    IAuthentication _userEntry=BALFactory.GetAuthenticationObject();
+                    UserModel _newuser=new UserModel();
+                    Console.WriteLine("\n_____Enter details of the User_____");
+                    Console.Write("Name of User: ");
+                    _newuser.Name=Console.ReadLine();
+                    Console.Write("Email: ");
+                    _newuser.Email=Console.ReadLine();
+                    Console.WriteLine(_userEntry.Register(_newuser));
+                    Console.WriteLine("User registered with ID: {0}",_newuser.UserID);
+                    break;
+
+                case 9:
                     Console.WriteLine("Signing Out...");
                     return 1;
 

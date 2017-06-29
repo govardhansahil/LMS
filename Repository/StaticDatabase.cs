@@ -16,7 +16,7 @@ namespace Repository
 
         internal static List<UserModel> _usersList = new List<UserModel>()
         {
-            new UserModel() {  UserID=1, Name="User1", Email="Author1", IsActive=true, Password="Pwd1", IsAdmin=true   },
+            new UserModel() {  UserID=1, Name="User1", Email="admin", IsActive=true, Password="password", IsAdmin=true   },
             new UserModel() {  UserID=2, Name="User2", Email="Author2", IsActive=true, Password="Pwd2"   },
             new UserModel() {  UserID=3, Name="User3", Email="Author3", IsActive=false, Password="Pwd3" },
             new UserModel() {  UserID=4, Name="User4", Email="Author4", IsActive=true, Password="Pwd4" },
