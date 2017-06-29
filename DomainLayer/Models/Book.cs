@@ -9,6 +9,7 @@
         public string AuthorName { get; set; }
 
         public string Department { get; set; }
+        public int NumberOfBooks{get; set;}
 
         public bool IsActive { get; set; }
     }

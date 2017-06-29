@@ -7,12 +7,13 @@ namespace Repository.Library
     {
         string IssueBook(BookHistoryModel obj);
 
-        void ReturnBook();
+        string ReturnBook(int retID);
 
         string AddBook(BookModel bookObj);
 
         string RemoveBook(int bookID);
 
         IEnumerable<BookModel> GetAllBooks(bool isIncludeDisabled);
+        IEnumerable<BookModel> SearchBook(string _searchArg);
     }
 }

@@ -27,6 +27,7 @@ namespace BusinessLayer.Library
 
         public string IssueBook(BookHistoryModel obj)
         {
+
             return _bookObj.IssueBook(obj);
         }
 
@@ -35,8 +36,14 @@ namespace BusinessLayer.Library
             return _bookObj.RemoveBook(bookID);
         }
 
-        public void ReturnBook()
+        public string ReturnBook(int retID)
         {
+            return _bookObj.ReturnBook(retID);
+        }
+        public IEnumerable<BookModel> SearchBook(string _searchArg)
+        {
+
+            return _bookObj.SearchBook(_searchArg);
         }
     }
 }
